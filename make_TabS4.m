@@ -4,9 +4,6 @@ clear all
 close all
 clc
 
-addpath('P:\server\P1')
-
-
 ALL_FOLDER_FILES = {'data\th1\', 'data\th1_p4\', 'data\Bonneau\hiv\', 'data\Bonneau\mock\'};
 ALL_FIG_NAME = {'th1','p4','DC','mock'};
 
