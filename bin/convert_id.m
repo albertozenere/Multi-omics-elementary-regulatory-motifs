@@ -5,8 +5,6 @@
 %identifier (there can be several)
 
 function out = convert_id(list,inID,outID)
-% martexport = importdata('C:\Users\albze08\Desktop\phd\th1
-% differentiation\matlab-models\common\martexport020718.mat');
 martexport = importdata('martexport020718.mat');
 
 %%
