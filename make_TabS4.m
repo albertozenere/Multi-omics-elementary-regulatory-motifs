@@ -1,4 +1,5 @@
-%Generate the lists of genes in Tab.S4-S5-S6-S7
+%Generate the lists of genes in Tab.S4-S5-S6-S7, in a format ready to be copy-pasted in
+%Latex
 
 clear all
 close all
