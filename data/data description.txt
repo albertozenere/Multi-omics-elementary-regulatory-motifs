@@ -1,1 +1,12 @@
+This folder contains the four datasets used for the paper.
 
+RNA-seq of dataset A was retrieved from the EMBL-EBI sequencing archive Arrayexpress (https://www.ebi.ac.uk/arrayexpress/) under the accession number E-MTAB-7775. 
+RNA-seq of dataset B is available under accession number E-MTAB-10423, while ATAC-seq of both dataset A and B is accessible using the accession number E-MTAB-10444. 
+In dataset A and B, primary human naive CD4+T cells were analysed during Th1 type polarization.
+The difference between them is that in dataset B the activation was performed in the presence of progesterone. 
+In both dataset A and B, RNA-seq and ATAC-seq were collected at time points 0h, 0.5h, 1h, 2h and 24h.
+
+RNA-seq and ATAC-seq of dataset C and D were retrieved from GEO (https://www.ncbi.nlm.nih.gov/geo/) under accession numbers GSE125817 and GSE125918 respectively. 
+These datasets were obtained as part of a larger set of experiments on human monocyte-derived dendritic cells under infection with HIV-1. 
+In particular, we gathered the samples corresponding to the identifiers "NL4 3.SIV VPX", "NL4 3.SIV VPX.GFP POS", "NL4 3.SIV VPX.GFP POS.CD86 HIGH" to form dataset C and those with "NS" as dataset D. 
+In both dataset C and D, RNA-seq and ATAC-seq were collected at time points 2h, 8h, 24h and 48h.
