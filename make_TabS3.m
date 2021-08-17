@@ -48,17 +48,17 @@ for n_data = 1:n_dataset
     AGG = importdata([FOLDER_FILES, 'AGG.mat']);
     Rag2 = importdata([FOLDER_FILES, 'Rag2.mat']); Rag1 = importdata([FOLDER_FILES, 'Rag1.mat']); Rgg = importdata([FOLDER_FILES, 'Rgg.mat']);
 
-	if (contains(FOLDER_FILES, 'th1') && NTP == 18) || contains(FOLDER_FILES, 'th1_p4') || contains(FOLDER_FILES, 'control')
+	if contains(FOLDER_FILES, 'th1') || contains(FOLDER_FILES, 'th1_p4') 
         time = [0 0 0, .5 .5 .5, 1 1 1, 2 2 2, 6 6 6, 24 24 24]; %th1
         ORG = "human";
         
-        dist_TSS = importdata('P:\server\P1\atacseq\th1_P4\FinalConsensuspeaksannotatedtotranscripts.mat');
+        dist_TSS = importdata('atacseq_files\FinalConsensuspeaks_th1.mat');
 
 	elseif contains(FOLDER_FILES, 'hiv') || contains(FOLDER_FILES, 'mock')
         time = [2 2 2, 8 8 8, 24 24 24, 48 48 48]; %hiv
         ORG = "human";
      
-        dist_TSS = importdata('P:\server\P1\sign_analysis\external_data\Bonneau\atacseq\FinalConsensuspeaksannotatedtotranscripts.mat');
+        dist_TSS = importdata('atacseq_files\FinalConsensuspeaks_bonneau.mat');
 	else
         error()
 	end
