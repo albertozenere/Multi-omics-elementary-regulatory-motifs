@@ -79,7 +79,7 @@ for n_data = 1:length(ALL_FOLDER_FILES)
                 pos_chr = find(peak_tf(:,pos_tf));
                 pos_tg = find(tf_target(pos_tf,:))';
 
-                list_tg = example_sub(pos_tf,pos_chr,peak_target,Xtarget,Xtf,Xatac,time,pc_fun, THS_0,THS_1);
+                list_tg = make_TabS8_sub(pos_tf,pos_chr,peak_target,Xtarget,Xtf,Xatac,time);
                 list_tg_name = convert_id(list(list_tg),'ensg','name');
                 list_tg_name = string(list_tg_name(arrayfun(@(n) ~isempty(list_tg_name{n}), 1:length(list_tg_name))));
 
@@ -98,7 +98,7 @@ for n_data = 1:length(ALL_FOLDER_FILES)
                 pos_chr = find(peak_tf(:,pos_tf));
                 pos_tg = find(tf_target(pos_tf,:))';
 
-                list_tg = example_sub(pos_tf,pos_chr,peak_target,Xtarget,Xtf,Xatac,time,pc_fun, THS_0,THS_1);
+                list_tg = make_TabS8_sub(pos_tf,pos_chr,peak_target,Xtarget,Xtf,Xatac,time);
                 list_tg_name = convert_id(list(list_tg),'ensg','name');
                 list_tg_name = string(list_tg_name(arrayfun(@(n) ~isempty(list_tg_name{n}), 1:length(list_tg_name))));
 
