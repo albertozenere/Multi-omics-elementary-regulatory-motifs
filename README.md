@@ -6,3 +6,5 @@ Notice that the terms structural balance and coherence are used interchangeably.
 The folder 'data' contains the processed data, obtained using the steps indicated in the Supplementary Information of the article.
 The folder 'bin' contains subfunctions created for this project.
 The resulting images are contained in the folder 'IMG'.
+
+The first script to run is 'init.mat', which creates some necessary .mat files
