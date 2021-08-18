@@ -32,10 +32,6 @@ for n_data = 1:n_dataset
     Xatac = importdata([FOLDER_FILES, 'Xatacall.mat']); Natac = size(Xatac,1);
 
     NTP = size(Xtarget,2);
-    %data, mean of replicates, for comparison purposes
-    Xtarget_mean = importdata([FOLDER_FILES, 'X.mat']); 
-    Xtf_mean = importdata([FOLDER_FILES, 'Xtf.mat']); 
-    Xatac_mean = importdata([FOLDER_FILES, 'Xatac.mat']);
     %adjacencies
     peak_tf = importdata([FOLDER_FILES, 'adj_peak_tf.mat']);
     peak_target = importdata([FOLDER_FILES, 'adj_peak_target.mat']);
